@@ -1,10 +1,10 @@
 <?php
 
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
-use function Formapro\Values\get_value;
-use function Formapro\Values\get_values;
-use function Formapro\Values\set_value;
+use function BernardinoCampos\Values\get_value;
+use function BernardinoCampos\Values\get_values;
+use function BernardinoCampos\Values\set_value;
 
 /**
  * @see https://core.telegram.org/bots/api#getfile

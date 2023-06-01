@@ -1,8 +1,8 @@
 <?php
 
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
-use function Formapro\Values\add_object;
+use function BernardinoCampos\Values\add_object;
 
 class InlineKeyboardMarkup implements ReplyMarkup
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
 use function Formapro\Values\get_value;
 

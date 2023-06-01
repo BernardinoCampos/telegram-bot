@@ -1,9 +1,9 @@
 <?php
 
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
-use function Formapro\Values\get_value;
-use function Formapro\Values\set_value;
+use function BernardinoCampos\Values\get_value;
+use function BernardinoCampos\Values\set_value;
 
 class ReplyKeyboardRemove implements ReplyMarkup
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
-use function Formapro\Values\set_values;
+use function BernardinoCampos\Values\set_values;
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
-use function Formapro\Values\set_value;
-use function Formapro\Values\get_values;
+use function BernardinoCampos\Values\set_value;
+use function BernardinoCampos\Values\get_values;
 
 class Bot
 {

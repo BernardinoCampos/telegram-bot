@@ -1,8 +1,8 @@
 <?php
-namespace Formapro\TelegramBot;
+namespace BernardinoCampos\TelegramBot;
 
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_value;
+use function BernardinoCampos\Values\get_object;
+use function BernardinoCampos\Values\get_value;
 
 class CallbackQuery
 {
