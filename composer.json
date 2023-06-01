@@ -1,5 +1,5 @@
 {
-  "name": "bernardinocampos/telegram-bot",
+  "name": "bernardinocampos/telegrambot",
   "type": "library",
   "description": "PHP Telegram Bot",
   "keywords": ["telegram", "bot", "client"],
