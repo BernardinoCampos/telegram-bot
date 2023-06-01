@@ -8,9 +8,6 @@
     "formapro/values": "^0.5.1",
     "guzzlehttp/guzzle": "7.*"
   },
-  "autoload": {
-    "psr-4": { "bernardinocampos\\TelegramBot\\": "src/" }
-  },
   "extra": {
     "branch-alias": {
       "dev-master": "1.x-dev"
