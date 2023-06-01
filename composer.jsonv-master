@@ -5,7 +5,7 @@
   "keywords": ["telegram", "bot", "client"],
   "license": "MIT",
   "require": {
-    "bernardinocampos/values": "^0.5.1",
+    "bernardinocampos/values": "dev-master",
     "guzzlehttp/guzzle": "7.*"
   },
   "extra": {
