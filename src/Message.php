@@ -5,6 +5,7 @@ namespace BernardinoCampos\TelegramBot;
 use function BernardinoCampos\Values\get_object;
 use function BernardinoCampos\Values\get_value;
 
+#[AllowDynamicProperties]
 class Message
 {
     private $values = [];
