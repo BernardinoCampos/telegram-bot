@@ -1,11 +1,11 @@
 {
-  "name": "bernardinocampos/telegram-bot",
+  "name": "bernardinocampos/telegrambot",
   "type": "library",
   "description": "PHP Telegram Bot",
   "keywords": ["telegram", "bot", "client"],
   "license": "MIT",
   "require": {
-    "bernardinocampos/values": "^0.5.1",
+    "bernardinocampos/values": "dev-master",
     "guzzlehttp/guzzle": "7.*"
   },
   "extra": {
