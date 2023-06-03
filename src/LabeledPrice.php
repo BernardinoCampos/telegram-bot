@@ -7,6 +7,7 @@ use function BernardinoCampos\Values\get_values;
 use function BernardinoCampos\Values\set_object;
 use function BernardinoCampos\Values\set_value;
 
+#[\AllowDynamicProperties]
 class LabeledPrice
 {
     private $values = [];

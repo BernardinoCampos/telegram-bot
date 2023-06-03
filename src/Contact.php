@@ -4,6 +4,7 @@ namespace BernardinoCampos\TelegramBot;
 
 use function BernardinoCampos\Values\get_value;
 
+#[\AllowDynamicProperties]
 class Contact
 {
     private $values = [];

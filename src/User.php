@@ -7,6 +7,7 @@ use function BernardinoCampos\Values\get_value;
 /**
  * https://core.telegram.org/bots/api#user
  */
+#[\AllowDynamicProperties]
 class User
 {
     private $values = [];

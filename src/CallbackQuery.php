@@ -4,6 +4,7 @@ namespace BernardinoCampos\TelegramBot;
 use function BernardinoCampos\Values\get_object;
 use function BernardinoCampos\Values\get_value;
 
+#[\AllowDynamicProperties]
 class CallbackQuery
 {
     private $values = [];

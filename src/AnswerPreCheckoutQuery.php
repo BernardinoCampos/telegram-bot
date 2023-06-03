@@ -4,6 +4,7 @@ namespace BernardinoCampos\TelegramBot;
 use function BernardinoCampos\Values\get_value;
 use function BernardinoCampos\Values\set_value;
 
+#[\AllowDynamicProperties]
 class AnswerPreCheckoutQuery
 {
     private $values = [];

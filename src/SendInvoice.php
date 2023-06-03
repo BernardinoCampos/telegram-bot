@@ -9,6 +9,7 @@ use function BernardinoCampos\Values\set_object;
 use function BernardinoCampos\Values\set_objects;
 use function BernardinoCampos\Values\set_value;
 
+#[\AllowDynamicProperties]
 class SendInvoice
 {
     private $values = [];

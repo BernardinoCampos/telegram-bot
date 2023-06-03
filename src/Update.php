@@ -6,6 +6,7 @@ use function BernardinoCampos\Values\get_object;
 use function BernardinoCampos\Values\get_value;
 use function BernardinoCampos\Values\set_values;
 
+#[\AllowDynamicProperties]
 class Update
 {
     private $values = [];

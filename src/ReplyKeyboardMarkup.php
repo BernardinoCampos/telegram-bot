@@ -6,6 +6,7 @@ use function BernardinoCampos\Values\add_object;
 use function BernardinoCampos\Values\get_value;
 use function BernardinoCampos\Values\set_value;
 
+#[\AllowDynamicProperties]
 class ReplyKeyboardMarkup implements ReplyMarkup
 {
     private $values = [];

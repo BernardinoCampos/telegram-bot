@@ -4,6 +4,7 @@ namespace BernardinoCampos\TelegramBot;
 /**
  * @see https://core.telegram.org/bots/api#sending-files
  */
+#[\AllowDynamicProperties]
 class FileUrl
 {
     private $url;

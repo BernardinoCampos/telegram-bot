@@ -9,6 +9,7 @@ use function BernardinoCampos\Values\set_value;
 /**
  * @see https://core.telegram.org/bots/api#getfile
  */
+#[\AllowDynamicProperties]
 class GetFile
 {
     private $values = [];

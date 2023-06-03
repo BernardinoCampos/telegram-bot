@@ -8,6 +8,7 @@ use Psr\Http\Message\ResponseInterface;
 use function BernardinoCampos\Values\set_value;
 use function BernardinoCampos\Values\get_values;
 
+#[\AllowDynamicProperties]
 class Bot
 {
     private $token;

@@ -4,6 +4,7 @@ namespace BernardinoCampos\TelegramBot;
 
 use function BernardinoCampos\Values\add_object;
 
+#[\AllowDynamicProperties]
 class InlineKeyboardMarkup implements ReplyMarkup
 {
     private $values = [];
