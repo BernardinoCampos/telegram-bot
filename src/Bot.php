@@ -15,7 +15,7 @@ class Bot
 
     private $httpClient;
 
-    public function __construct(string $token, ClientInterface $httpClient = null)
+    public function __construct(string $token, ClientInterface|null $httpClient = null)
     {
         $this->token = $token;
         $this->httpClient = $httpClient ?? new \GuzzleHttp\Client();
